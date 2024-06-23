@@ -1,0 +1,12 @@
+* listado directorios ->  ls
+
+* INICIALIZAR GIT:
+    Dentro del repositorio donde se desea trabajar hay que ejecutar el comando
+'git init' en la terminal de bash
+
+* CONFIGURAR ENTORNO GITHUB y GIT:
+    Primero debe existir el repositorio en GITHUB y luego en la terminal bash ejecutar:
+  1. gir config user.name 'nombrIdentificatorioDeConexion'
+  2. git config user.name 'correoElectronico'
+  3. git remote add origin 'urlRepositorioRemoto'
+   3.1 gir remote add 'nombPredeterminadoRepositorioRemoto:origin'
